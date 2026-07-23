@@ -7,7 +7,7 @@ Use one method to check Redis first, fall back to your data source on a miss, th
 ## Usage
 
 ```ts
-import {CacheLoader} from 'cachedataloader';
+import {CacheLoader} from '@surya-sourav/cachedataloader';
 
 const cache = new CacheLoader(redisClient);
 

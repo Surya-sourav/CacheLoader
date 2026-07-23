@@ -1,5 +1,5 @@
 {
-  "name": "cachedataloader",
+  "name": "@surya-sourav/cachedataloader",
   "version": "1.0.0",
   "description": "A small read-through cache layer on top of Redis.",
   "main": "./dist/loader.js",
@@ -32,6 +32,9 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": {
       "types": "./dist/loader.d.ts",

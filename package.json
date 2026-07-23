@@ -1,5 +1,5 @@
 {
-  "name": "cacheloader",
+  "name": "cachedataloader",
   "version": "1.0.0",
   "description": "A small read-through cache layer on top of Redis.",
   "main": "./dist/loader.js",

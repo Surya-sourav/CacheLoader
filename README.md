@@ -1,13 +1,13 @@
-# CacheLoader
+# CacheDataLoader
 
-CacheLoader is a small read-through cache wrapper on top of Redis.
+CacheDataLoader is a small read-through cache wrapper on top of Redis.
 
 Use one method to check Redis first, fall back to your data source on a miss, then write the fresh value back with an optional TTL.
 
 ## Usage
 
 ```ts
-import {CacheLoader} from 'cacheloader';
+import {CacheLoader} from 'cachedataloader';
 
 const cache = new CacheLoader(redisClient);
 
